@@ -1,0 +1,1008 @@
+{
+  "catalog": {
+    "id": "token-watch-openai-standard",
+    "name": "OpenAI Standard Pricing"
+  },
+  "currency": "USD",
+  "generated_at": "2026-09-16T17:33:36.925157Z",
+  "models": [
+    {
+      "aliases": [],
+      "display_name": "babbage-002",
+      "id": "babbage-002",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.4",
+        "output_per_million_tokens": "0.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/babbage-002",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "Chat Latest",
+      "id": "chat-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "5",
+        "output_per_million_tokens": "30"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/chat-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "ChatGPT-4o",
+      "id": "chatgpt-4o-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "5",
+        "output_per_million_tokens": "15"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/chatgpt-4o-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "chatgpt-image-latest",
+      "id": "chatgpt-image-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "1.25",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/chatgpt-image-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "codex-mini-latest",
+      "id": "codex-mini-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0.375",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.5",
+        "output_per_million_tokens": "6"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/codex-mini-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "computer-use-preview-2025-03-11"
+      ],
+      "display_name": "computer-use-preview",
+      "id": "computer-use-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "3",
+        "output_per_million_tokens": "12"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/computer-use-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "davinci-002",
+      "id": "davinci-002",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2",
+        "output_per_million_tokens": "2"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/davinci-002",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-3.5-turbo-0125",
+        "gpt-3.5-turbo-1106",
+        "gpt-3.5-turbo-instruct"
+      ],
+      "display_name": "GPT-3.5 Turbo",
+      "id": "gpt-3.5-turbo",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.5",
+        "output_per_million_tokens": "1.5"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4-0314",
+        "gpt-4-0613"
+      ],
+      "display_name": "GPT-4",
+      "id": "gpt-4",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "30",
+        "output_per_million_tokens": "60"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4-turbo-2024-04-09"
+      ],
+      "display_name": "GPT-4 Turbo",
+      "id": "gpt-4-turbo",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "10",
+        "output_per_million_tokens": "30"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-4 Turbo Preview",
+      "id": "gpt-4-turbo-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "10",
+        "output_per_million_tokens": "30"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "display_name": "GPT-4.1",
+      "id": "gpt-4.1",
+      "prices": {
+        "cache_read_per_million_tokens": "0.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2",
+        "output_per_million_tokens": "8"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "display_name": "GPT-4.1 Mini",
+      "id": "gpt-4.1-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.1",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.4",
+        "output_per_million_tokens": "1.6"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4.1-nano-2025-04-14"
+      ],
+      "display_name": "GPT-4.1 nano",
+      "id": "gpt-4.1-nano",
+      "prices": {
+        "cache_read_per_million_tokens": "0.025",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.1",
+        "output_per_million_tokens": "0.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4.5-preview-2025-02-27"
+      ],
+      "display_name": "GPT-4.5 Preview",
+      "id": "gpt-4.5-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "37.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "75",
+        "output_per_million_tokens": "150"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4.5-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4o-2024-05-13",
+        "gpt-4o-2024-08-06",
+        "gpt-4o-2024-11-20"
+      ],
+      "display_name": "GPT-4o",
+      "id": "gpt-4o",
+      "prices": {
+        "cache_read_per_million_tokens": "1.25",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2.5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4o-audio-preview-2024-10-01",
+        "gpt-4o-audio-preview-2024-12-17",
+        "gpt-4o-audio-preview-2025-06-03"
+      ],
+      "display_name": "GPT-4o Audio",
+      "id": "gpt-4o-audio-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2.5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-audio-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4o-mini-2024-07-18"
+      ],
+      "display_name": "GPT-4o Mini",
+      "id": "gpt-4o-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.075",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.15",
+        "output_per_million_tokens": "0.6"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4o-mini-audio-preview-2024-12-17"
+      ],
+      "display_name": "GPT-4o Mini Audio",
+      "id": "gpt-4o-mini-audio-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.15",
+        "output_per_million_tokens": "0.6"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4o-mini-search-preview-2025-03-11"
+      ],
+      "display_name": "GPT-4o Mini Search Preview",
+      "id": "gpt-4o-mini-search-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.15",
+        "output_per_million_tokens": "0.6"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-4o-search-preview-2025-03-11"
+      ],
+      "display_name": "GPT-4o Search Preview",
+      "id": "gpt-4o-search-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2.5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-search-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5-2025-08-07"
+      ],
+      "display_name": "GPT-5",
+      "id": "gpt-5",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5 Chat",
+      "id": "gpt-5-chat-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5-chat-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5-Codex",
+      "id": "gpt-5-codex",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "display_name": "GPT-5 Mini",
+      "id": "gpt-5-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.025",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.25",
+        "output_per_million_tokens": "2"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5-nano-2025-08-07"
+      ],
+      "display_name": "GPT-5 nano",
+      "id": "gpt-5-nano",
+      "prices": {
+        "cache_read_per_million_tokens": "0.005",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.05",
+        "output_per_million_tokens": "0.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5-pro-2025-10-06"
+      ],
+      "display_name": "GPT-5 Pro",
+      "id": "gpt-5-pro",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "15",
+        "output_per_million_tokens": "120"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5-pro",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.1-2025-11-13"
+      ],
+      "display_name": "GPT-5.1",
+      "id": "gpt-5.1",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.1 Chat",
+      "id": "gpt-5.1-chat-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-chat-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.1-Codex",
+      "id": "gpt-5.1-codex",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.1-Codex-Max",
+      "id": "gpt-5.1-codex-max",
+      "prices": {
+        "cache_read_per_million_tokens": "0.125",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.25",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.1-Codex Mini",
+      "id": "gpt-5.1-codex-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.025",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.25",
+        "output_per_million_tokens": "2"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.2-2025-12-11"
+      ],
+      "display_name": "GPT-5.2",
+      "id": "gpt-5.2",
+      "prices": {
+        "cache_read_per_million_tokens": "0.175",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.75",
+        "output_per_million_tokens": "14"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.2 Chat",
+      "id": "gpt-5.2-chat-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0.175",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.75",
+        "output_per_million_tokens": "14"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.2-Codex",
+      "id": "gpt-5.2-codex",
+      "prices": {
+        "cache_read_per_million_tokens": "0.175",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.75",
+        "output_per_million_tokens": "14"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.2-pro-2025-12-11"
+      ],
+      "display_name": "GPT-5.2 Pro",
+      "id": "gpt-5.2-pro",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "21",
+        "output_per_million_tokens": "168"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.3 Chat",
+      "id": "gpt-5.3-chat-latest",
+      "prices": {
+        "cache_read_per_million_tokens": "0.175",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.75",
+        "output_per_million_tokens": "14"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.3-Codex",
+      "id": "gpt-5.3-codex",
+      "prices": {
+        "cache_read_per_million_tokens": "0.175",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.75",
+        "output_per_million_tokens": "14"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.4-2026-03-05"
+      ],
+      "display_name": "GPT-5.4",
+      "id": "gpt-5.4",
+      "prices": {
+        "cache_read_per_million_tokens": "0.25",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2.5",
+        "output_per_million_tokens": "15"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.4-mini-2026-03-17"
+      ],
+      "display_name": "GPT-5.4 Mini",
+      "id": "gpt-5.4-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.075",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.75",
+        "output_per_million_tokens": "4.5"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.4-nano-2026-03-17"
+      ],
+      "display_name": "GPT-5.4 nano",
+      "id": "gpt-5.4-nano",
+      "prices": {
+        "cache_read_per_million_tokens": "0.02",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.2",
+        "output_per_million_tokens": "1.25"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.4-pro-2026-03-05"
+      ],
+      "display_name": "GPT-5.4 Pro",
+      "id": "gpt-5.4-pro",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "30",
+        "output_per_million_tokens": "180"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.5-2026-04-23"
+      ],
+      "display_name": "GPT-5.5",
+      "id": "gpt-5.5",
+      "prices": {
+        "cache_read_per_million_tokens": "0.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "5",
+        "output_per_million_tokens": "30"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-5.5-pro-2026-04-23"
+      ],
+      "display_name": "GPT-5.5 Pro",
+      "id": "gpt-5.5-pro",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "30",
+        "output_per_million_tokens": "180"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-daybreak-red-latest"
+      ],
+      "display_name": "GPT-5.6 Cyber",
+      "id": "gpt-5.6-cyber",
+      "prices": {
+        "cache_read_per_million_tokens": "1.25",
+        "cache_write_1h_per_million_tokens": "15.625",
+        "cache_write_5m_per_million_tokens": "15.625",
+        "input_per_million_tokens": "12.5",
+        "output_per_million_tokens": "75"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.6 Luna",
+      "id": "gpt-5.6-luna",
+      "prices": {
+        "cache_read_per_million_tokens": "0.02",
+        "cache_write_1h_per_million_tokens": "0.25",
+        "cache_write_5m_per_million_tokens": "0.25",
+        "input_per_million_tokens": "0.2",
+        "output_per_million_tokens": "1.2"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-daybreak-blue-latest"
+      ],
+      "display_name": "GPT-5.6 Sol",
+      "id": "gpt-5.6-sol",
+      "prices": {
+        "cache_read_per_million_tokens": "0.4",
+        "cache_write_1h_per_million_tokens": "5",
+        "cache_write_5m_per_million_tokens": "5",
+        "input_per_million_tokens": "4",
+        "output_per_million_tokens": "20"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-5.6 Terra",
+      "id": "gpt-5.6-terra",
+      "prices": {
+        "cache_read_per_million_tokens": "0.2",
+        "cache_write_1h_per_million_tokens": "2.5",
+        "cache_write_5m_per_million_tokens": "2.5",
+        "input_per_million_tokens": "2",
+        "output_per_million_tokens": "12"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-6 Astra",
+      "id": "gpt-6-astra",
+      "prices": {
+        "cache_read_per_million_tokens": "1",
+        "cache_write_1h_per_million_tokens": "12.5",
+        "cache_write_5m_per_million_tokens": "12.5",
+        "input_per_million_tokens": "10",
+        "output_per_million_tokens": "50"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-audio-2025-08-28"
+      ],
+      "display_name": "GPT-Audio",
+      "id": "gpt-audio",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2.5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-audio",
+      "status": "active"
+    },
+    {
+      "aliases": [],
+      "display_name": "GPT-Audio-1.5",
+      "id": "gpt-audio-1.5",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2.5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-audio-1.5",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-audio-mini-2025-10-06",
+        "gpt-audio-mini-2025-12-15"
+      ],
+      "display_name": "GPT-Audio Mini",
+      "id": "gpt-audio-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.6",
+        "output_per_million_tokens": "2.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-image-1.5-2025-12-16"
+      ],
+      "display_name": "GPT-Image-1.5",
+      "id": "gpt-image-1.5",
+      "prices": {
+        "cache_read_per_million_tokens": "1.25",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "5",
+        "output_per_million_tokens": "10"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-image-1.5",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "gpt-realtime-mini-2025-10-06",
+        "gpt-realtime-mini-2025-12-15"
+      ],
+      "display_name": "GPT-Realtime Mini",
+      "id": "gpt-realtime-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.06",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "0.6",
+        "output_per_million_tokens": "2.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-realtime-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o1-2024-12-17"
+      ],
+      "display_name": "o1",
+      "id": "o1",
+      "prices": {
+        "cache_read_per_million_tokens": "7.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "15",
+        "output_per_million_tokens": "60"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o1",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o1-mini-2024-09-12"
+      ],
+      "display_name": "o1-mini",
+      "id": "o1-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.55",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.1",
+        "output_per_million_tokens": "4.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o1-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o1-preview-2024-09-12"
+      ],
+      "display_name": "o1 Preview",
+      "id": "o1-preview",
+      "prices": {
+        "cache_read_per_million_tokens": "7.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "15",
+        "output_per_million_tokens": "60"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o1-preview",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o1-pro-2025-03-19"
+      ],
+      "display_name": "o1-pro",
+      "id": "o1-pro",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "150",
+        "output_per_million_tokens": "600"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o1-pro",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o3-2025-04-16"
+      ],
+      "display_name": "o3",
+      "id": "o3",
+      "prices": {
+        "cache_read_per_million_tokens": "0.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2",
+        "output_per_million_tokens": "8"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o3",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o3-deep-research-2025-06-26"
+      ],
+      "display_name": "o3-deep-research",
+      "id": "o3-deep-research",
+      "prices": {
+        "cache_read_per_million_tokens": "2.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "10",
+        "output_per_million_tokens": "40"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o3-mini-2025-01-31"
+      ],
+      "display_name": "o3-mini",
+      "id": "o3-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.55",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.1",
+        "output_per_million_tokens": "4.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o3-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o3-pro-2025-06-10"
+      ],
+      "display_name": "o3-pro",
+      "id": "o3-pro",
+      "prices": {
+        "cache_read_per_million_tokens": "0",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "20",
+        "output_per_million_tokens": "80"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o3-pro",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o4-mini-2025-04-16"
+      ],
+      "display_name": "o4-mini",
+      "id": "o4-mini",
+      "prices": {
+        "cache_read_per_million_tokens": "0.275",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "1.1",
+        "output_per_million_tokens": "4.4"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o4-mini",
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "o4-mini-deep-research-2025-06-26"
+      ],
+      "display_name": "o4-mini-deep-research",
+      "id": "o4-mini-deep-research",
+      "prices": {
+        "cache_read_per_million_tokens": "0.5",
+        "cache_write_1h_per_million_tokens": "0",
+        "cache_write_5m_per_million_tokens": "0",
+        "input_per_million_tokens": "2",
+        "output_per_million_tokens": "8"
+      },
+      "source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+      "status": "active"
+    }
+  ],
+  "pricing_basis": "standard",
+  "provider": {
+    "id": "openai",
+    "name": "OpenAI",
+    "pricing_url": "https://developers.openai.com/api/docs/models/all"
+  },
+  "schema_version": 2
+}
