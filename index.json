@@ -1,22 +1,22 @@
 {
-  "created_at": "2026-09-19T20:52:25.202569Z",
+  "created_at": "2026-09-20T00:50:07.163564Z",
   "files": [
     {
       "file": "anthropic.json",
-      "generated_at": "2026-09-19T20:51:34.315832Z",
+      "generated_at": "2026-09-20T00:49:20.906234Z",
       "model_count": 13,
       "provider": "anthropic"
     },
     {
       "file": "openai.json",
-      "generated_at": "2026-09-19T20:51:34.315832Z",
+      "generated_at": "2026-09-20T00:49:20.906234Z",
       "model_count": 64,
       "provider": "openai"
     },
     {
       "file": "togetherai.json",
-      "generated_at": "2026-09-19T20:51:34.315832Z",
-      "model_count": 84,
+      "generated_at": "2026-09-20T00:49:20.906234Z",
+      "model_count": 73,
       "provider": "togetherai"
     }
   ],
