@@ -4,7 +4,7 @@
     "name": "Together.ai Standard Pricing"
   },
   "currency": "USD",
-  "generated_at": "2026-11-19T01:55:33.353573Z",
+  "generated_at": "2026-11-19T17:36:12.386563Z",
   "models": [
     {
       "aliases": [],
@@ -935,11 +935,11 @@
       "display_name": "Qwen4 Max",
       "id": "Qwen/Qwen4-Max",
       "prices": {
-        "cache_read_per_million_tokens": "0.07125",
+        "cache_read_per_million_tokens": "0.0525",
         "cache_write_1h_per_million_tokens": "0",
         "cache_write_5m_per_million_tokens": "0",
-        "input_per_million_tokens": "1.425",
-        "output_per_million_tokens": "4.275"
+        "input_per_million_tokens": "1.05",
+        "output_per_million_tokens": "3.15"
       },
       "source_url": "https://api.together.ai/v1/models",
       "status": "active"
