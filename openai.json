@@ -4,7 +4,7 @@
     "name": "OpenAI Standard Pricing"
   },
   "currency": "USD",
-  "generated_at": "2026-09-30T16:26:55.682314Z",
+  "generated_at": "2026-11-19T01:55:33.353573Z",
   "models": [
     {
       "aliases": [],
@@ -18,7 +18,7 @@
         "output_per_million_tokens": "0.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/babbage-002",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -46,7 +46,7 @@
         "output_per_million_tokens": "15"
       },
       "source_url": "https://developers.openai.com/api/docs/models/chatgpt-4o-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -60,7 +60,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/chatgpt-image-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -74,7 +74,7 @@
         "output_per_million_tokens": "6"
       },
       "source_url": "https://developers.openai.com/api/docs/models/codex-mini-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -90,7 +90,7 @@
         "output_per_million_tokens": "12"
       },
       "source_url": "https://developers.openai.com/api/docs/models/computer-use-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -104,7 +104,7 @@
         "output_per_million_tokens": "2"
       },
       "source_url": "https://developers.openai.com/api/docs/models/davinci-002",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -122,7 +122,7 @@
         "output_per_million_tokens": "1.5"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -139,7 +139,7 @@
         "output_per_million_tokens": "60"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -155,11 +155,11 @@
         "output_per_million_tokens": "30"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
-      "display_name": "GPT-4 Turbo Preview",
+      "display_name": "GPT-4 Turbo preview",
       "id": "gpt-4-turbo-preview",
       "prices": {
         "cache_read_per_million_tokens": "0",
@@ -169,7 +169,7 @@
         "output_per_million_tokens": "30"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -185,13 +185,13 @@
         "output_per_million_tokens": "8"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-4.1-mini-2025-04-14"
       ],
-      "display_name": "GPT-4.1 Mini",
+      "display_name": "GPT-4.1 mini",
       "id": "gpt-4.1-mini",
       "prices": {
         "cache_read_per_million_tokens": "0.1",
@@ -201,7 +201,7 @@
         "output_per_million_tokens": "1.6"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -217,7 +217,7 @@
         "output_per_million_tokens": "0.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -233,7 +233,7 @@
         "output_per_million_tokens": "150"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4.5-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -251,7 +251,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -269,13 +269,13 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-audio-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-4o-mini-2024-07-18"
       ],
-      "display_name": "GPT-4o Mini",
+      "display_name": "GPT-4o mini",
       "id": "gpt-4o-mini",
       "prices": {
         "cache_read_per_million_tokens": "0.075",
@@ -285,7 +285,7 @@
         "output_per_million_tokens": "0.6"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -301,13 +301,13 @@
         "output_per_million_tokens": "0.6"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-4o-mini-search-preview-2025-03-11"
       ],
-      "display_name": "GPT-4o Mini Search Preview",
+      "display_name": "GPT-4o mini search preview",
       "id": "gpt-4o-mini-search-preview",
       "prices": {
         "cache_read_per_million_tokens": "0",
@@ -317,13 +317,13 @@
         "output_per_million_tokens": "0.6"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-4o-search-preview-2025-03-11"
       ],
-      "display_name": "GPT-4o Search Preview",
+      "display_name": "GPT-4o search preview",
       "id": "gpt-4o-search-preview",
       "prices": {
         "cache_read_per_million_tokens": "0",
@@ -333,7 +333,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-search-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -349,7 +349,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -363,7 +363,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5-chat-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -377,13 +377,13 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-5-mini-2025-08-07"
       ],
-      "display_name": "GPT-5 Mini",
+      "display_name": "GPT-5 mini",
       "id": "gpt-5-mini",
       "prices": {
         "cache_read_per_million_tokens": "0.025",
@@ -393,7 +393,7 @@
         "output_per_million_tokens": "2"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -409,13 +409,13 @@
         "output_per_million_tokens": "0.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-5-pro-2025-10-06"
       ],
-      "display_name": "GPT-5 Pro",
+      "display_name": "GPT-5 pro",
       "id": "gpt-5-pro",
       "prices": {
         "cache_read_per_million_tokens": "0",
@@ -425,7 +425,7 @@
         "output_per_million_tokens": "120"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5-pro",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -441,7 +441,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -455,7 +455,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-chat-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -469,7 +469,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -483,11 +483,11 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
-      "display_name": "GPT-5.1-Codex Mini",
+      "display_name": "GPT-5.1-Codex-Mini",
       "id": "gpt-5.1-codex-mini",
       "prices": {
         "cache_read_per_million_tokens": "0.025",
@@ -497,7 +497,7 @@
         "output_per_million_tokens": "2"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -527,7 +527,7 @@
         "output_per_million_tokens": "14"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -541,7 +541,7 @@
         "output_per_million_tokens": "14"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -571,7 +571,7 @@
         "output_per_million_tokens": "14"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -585,7 +585,7 @@
         "output_per_million_tokens": "14"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -607,7 +607,7 @@
       "aliases": [
         "gpt-5.4-mini-2026-03-17"
       ],
-      "display_name": "GPT-5.4 Mini",
+      "display_name": "GPT-5.4 mini",
       "id": "gpt-5.4-mini",
       "prices": {
         "cache_read_per_million_tokens": "0.075",
@@ -633,7 +633,7 @@
         "output_per_million_tokens": "1.25"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -813,7 +813,7 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-audio",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [],
@@ -834,7 +834,7 @@
         "gpt-audio-mini-2025-10-06",
         "gpt-audio-mini-2025-12-15"
       ],
-      "display_name": "GPT-Audio Mini",
+      "display_name": "GPT-Audio mini",
       "id": "gpt-audio-mini",
       "prices": {
         "cache_read_per_million_tokens": "0",
@@ -844,13 +844,13 @@
         "output_per_million_tokens": "2.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-image-1.5-2025-12-16"
       ],
-      "display_name": "GPT-Image-1.5",
+      "display_name": "GPT Image 1.5",
       "id": "gpt-image-1.5",
       "prices": {
         "cache_read_per_million_tokens": "1.25",
@@ -860,14 +860,14 @@
         "output_per_million_tokens": "10"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-image-1.5",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "gpt-realtime-mini-2025-10-06",
         "gpt-realtime-mini-2025-12-15"
       ],
-      "display_name": "GPT-Realtime Mini",
+      "display_name": "GPT-Realtime mini",
       "id": "gpt-realtime-mini",
       "prices": {
         "cache_read_per_million_tokens": "0.06",
@@ -877,7 +877,7 @@
         "output_per_million_tokens": "2.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/gpt-realtime-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -893,7 +893,7 @@
         "output_per_million_tokens": "60"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o1",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -909,13 +909,13 @@
         "output_per_million_tokens": "4.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o1-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
         "o1-preview-2024-09-12"
       ],
-      "display_name": "o1 Preview",
+      "display_name": "o1-preview",
       "id": "o1-preview",
       "prices": {
         "cache_read_per_million_tokens": "7.5",
@@ -925,7 +925,7 @@
         "output_per_million_tokens": "60"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o1-preview",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -941,7 +941,7 @@
         "output_per_million_tokens": "600"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o1-pro",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -957,7 +957,7 @@
         "output_per_million_tokens": "8"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o3",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -973,7 +973,7 @@
         "output_per_million_tokens": "40"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -989,7 +989,7 @@
         "output_per_million_tokens": "4.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o3-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -1005,7 +1005,7 @@
         "output_per_million_tokens": "80"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o3-pro",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -1021,7 +1021,7 @@
         "output_per_million_tokens": "4.4"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o4-mini",
-      "status": "active"
+      "status": "deprecated"
     },
     {
       "aliases": [
@@ -1037,7 +1037,7 @@
         "output_per_million_tokens": "8"
       },
       "source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
-      "status": "active"
+      "status": "deprecated"
     }
   ],
   "pricing_basis": "standard",
